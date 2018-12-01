@@ -4,10 +4,43 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>DevopsTestProject copy 2.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>DevopsTestProject copy.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>DevopsTestProject.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>F9BE80B9219C63F300C29F23</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F9BE80D0219C63FB00C29F23</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F9BE80DB219C63FB00C29F23</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F9BE80EE219C7BF900C29F23</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

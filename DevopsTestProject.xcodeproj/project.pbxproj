@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F99042CC21B286D000A795F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BE80BF219C63F300C29F23 /* ViewController.swift */; };
+		F99042CD21B286D000A795F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BE80BD219C63F300C29F23 /* AppDelegate.swift */; };
+		F99042CE21B286D000A795F5 /* DevopsTestProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F9BE80C4219C63F300C29F23 /* DevopsTestProject.xcdatamodeld */; };
+		F99042D121B286D000A795F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9BE80C9219C63FB00C29F23 /* LaunchScreen.storyboard */; };
+		F99042D221B286D000A795F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9BE80C7219C63FB00C29F23 /* Assets.xcassets */; };
+		F99042D321B286D000A795F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9BE80C1219C63F300C29F23 /* Main.storyboard */; };
 		F9BE80BE219C63F300C29F23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BE80BD219C63F300C29F23 /* AppDelegate.swift */; };
 		F9BE80C0219C63F300C29F23 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BE80BF219C63F300C29F23 /* ViewController.swift */; };
 		F9BE80C3219C63F300C29F23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9BE80C1219C63F300C29F23 /* Main.storyboard */; };
@@ -15,6 +21,12 @@
 		F9BE80CB219C63FB00C29F23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9BE80C9219C63FB00C29F23 /* LaunchScreen.storyboard */; };
 		F9BE80D6219C63FB00C29F23 /* DevopsTestProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BE80D5219C63FB00C29F23 /* DevopsTestProjectTests.swift */; };
 		F9BE80E1219C63FB00C29F23 /* DevopsTestProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BE80E0219C63FB00C29F23 /* DevopsTestProjectUITests.swift */; };
+		F9BE80F0219C7BF900C29F23 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BE80BF219C63F300C29F23 /* ViewController.swift */; };
+		F9BE80F1219C7BF900C29F23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BE80BD219C63F300C29F23 /* AppDelegate.swift */; };
+		F9BE80F2219C7BF900C29F23 /* DevopsTestProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F9BE80C4219C63F300C29F23 /* DevopsTestProject.xcdatamodeld */; };
+		F9BE80F5219C7BF900C29F23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9BE80C9219C63FB00C29F23 /* LaunchScreen.storyboard */; };
+		F9BE80F6219C7BF900C29F23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9BE80C7219C63FB00C29F23 /* Assets.xcassets */; };
+		F9BE80F7219C7BF900C29F23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9BE80C1219C63F300C29F23 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +47,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F99042D721B286D000A795F5 /* DevopsTestProjectStaging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DevopsTestProjectStaging.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F99042D821B286D100A795F5 /* DevopsTestProject copy2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "DevopsTestProject copy2-Info.plist"; path = "/Users/prajaktakulkarni/Documents/SwiftLearning/DevopsTestProject/DevopsTestProject copy2-Info.plist"; sourceTree = "<absolute>"; };
 		F9BE80BA219C63F300C29F23 /* DevopsTestProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DevopsTestProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9BE80BD219C63F300C29F23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F9BE80BF219C63F300C29F23 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,9 +63,18 @@
 		F9BE80DC219C63FB00C29F23 /* DevopsTestProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DevopsTestProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9BE80E0219C63FB00C29F23 /* DevopsTestProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevopsTestProjectUITests.swift; sourceTree = "<group>"; };
 		F9BE80E2219C63FB00C29F23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9BE80FB219C7BF900C29F23 /* DevopsTestProject Dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DevopsTestProject Dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9BE80FC219C7BFB00C29F23 /* DevopsTestProject copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "DevopsTestProject copy-Info.plist"; path = "/Users/prajaktakulkarni/Documents/SwiftLearning/DevopsTestProject/DevopsTestProject copy-Info.plist"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		F99042CF21B286D000A795F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F9BE80B7219C63F300C29F23 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -73,6 +96,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F9BE80F3219C7BF900C29F23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -83,6 +113,8 @@
 				F9BE80D4219C63FB00C29F23 /* DevopsTestProjectTests */,
 				F9BE80DF219C63FB00C29F23 /* DevopsTestProjectUITests */,
 				F9BE80BB219C63F300C29F23 /* Products */,
+				F9BE80FC219C7BFB00C29F23 /* DevopsTestProject copy-Info.plist */,
+				F99042D821B286D100A795F5 /* DevopsTestProject copy2-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,6 +124,8 @@
 				F9BE80BA219C63F300C29F23 /* DevopsTestProject.app */,
 				F9BE80D1219C63FB00C29F23 /* DevopsTestProjectTests.xctest */,
 				F9BE80DC219C63FB00C29F23 /* DevopsTestProjectUITests.xctest */,
+				F9BE80FB219C7BF900C29F23 /* DevopsTestProject Dev.app */,
+				F99042D721B286D000A795F5 /* DevopsTestProjectStaging.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -131,6 +165,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		F99042CA21B286D000A795F5 /* DevopsTestProjectStaging */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F99042D421B286D000A795F5 /* Build configuration list for PBXNativeTarget "DevopsTestProjectStaging" */;
+			buildPhases = (
+				F99042CB21B286D000A795F5 /* Sources */,
+				F99042CF21B286D000A795F5 /* Frameworks */,
+				F99042D021B286D000A795F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DevopsTestProjectStaging;
+			productName = DevopsTestProject;
+			productReference = F99042D721B286D000A795F5 /* DevopsTestProjectStaging.app */;
+			productType = "com.apple.product-type.application";
+		};
 		F9BE80B9219C63F300C29F23 /* DevopsTestProject */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F9BE80E5219C63FB00C29F23 /* Build configuration list for PBXNativeTarget "DevopsTestProject" */;
@@ -184,6 +235,23 @@
 			productReference = F9BE80DC219C63FB00C29F23 /* DevopsTestProjectUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		F9BE80EE219C7BF900C29F23 /* DevopsTestProject Dev */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9BE80F8219C7BF900C29F23 /* Build configuration list for PBXNativeTarget "DevopsTestProject Dev" */;
+			buildPhases = (
+				F9BE80EF219C7BF900C29F23 /* Sources */,
+				F9BE80F3219C7BF900C29F23 /* Frameworks */,
+				F9BE80F4219C7BF900C29F23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DevopsTestProject Dev";
+			productName = DevopsTestProject;
+			productReference = F9BE80FB219C7BF900C29F23 /* DevopsTestProject Dev.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -223,11 +291,23 @@
 				F9BE80B9219C63F300C29F23 /* DevopsTestProject */,
 				F9BE80D0219C63FB00C29F23 /* DevopsTestProjectTests */,
 				F9BE80DB219C63FB00C29F23 /* DevopsTestProjectUITests */,
+				F9BE80EE219C7BF900C29F23 /* DevopsTestProject Dev */,
+				F99042CA21B286D000A795F5 /* DevopsTestProjectStaging */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		F99042D021B286D000A795F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F99042D121B286D000A795F5 /* LaunchScreen.storyboard in Resources */,
+				F99042D221B286D000A795F5 /* Assets.xcassets in Resources */,
+				F99042D321B286D000A795F5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F9BE80B8219C63F300C29F23 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -252,9 +332,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F9BE80F4219C7BF900C29F23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9BE80F5219C7BF900C29F23 /* LaunchScreen.storyboard in Resources */,
+				F9BE80F6219C7BF900C29F23 /* Assets.xcassets in Resources */,
+				F9BE80F7219C7BF900C29F23 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		F99042CB21B286D000A795F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F99042CC21B286D000A795F5 /* ViewController.swift in Sources */,
+				F99042CD21B286D000A795F5 /* AppDelegate.swift in Sources */,
+				F99042CE21B286D000A795F5 /* DevopsTestProject.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F9BE80B6219C63F300C29F23 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -278,6 +378,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9BE80E1219C63FB00C29F23 /* DevopsTestProjectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9BE80EF219C7BF900C29F23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9BE80F0219C7BF900C29F23 /* ViewController.swift in Sources */,
+				F9BE80F1219C7BF900C29F23 /* AppDelegate.swift in Sources */,
+				F9BE80F2219C7BF900C29F23 /* DevopsTestProject.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,6 +426,46 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		F99042D521B286D000A795F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 6AC44Z6PNA;
+				INFOPLIST_FILE = "DevopsTestProject copy2-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pk.DevopsTestProjectStaging;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = com.pk.DevopsTestProjectStaging;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F99042D621B286D000A795F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 6AC44Z6PNA;
+				INFOPLIST_FILE = "DevopsTestProject copy2-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pk.DevopsTestProjectStaging;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = com.pk.DevopsTestProjectStaging;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		F9BE80E3219C63FB00C29F23 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -436,7 +586,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 6AC44Z6PNA;
 				INFOPLIST_FILE = DevopsTestProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -445,6 +596,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.pk.DevopsTestProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = DevopsTestProject;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -454,7 +606,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 6AC44Z6PNA;
 				INFOPLIST_FILE = DevopsTestProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -463,6 +616,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.pk.DevopsTestProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = DevopsTestProject;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -550,9 +704,56 @@
 			};
 			name = Release;
 		};
+		F9BE80F9219C7BF900C29F23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Dev";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 6AC44Z6PNA;
+				INFOPLIST_FILE = "DevopsTestProject copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pk.DevopsTestProjectDev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = DevopsTestProjectDev;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F9BE80FA219C7BF900C29F23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Dev";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 6AC44Z6PNA;
+				INFOPLIST_FILE = "DevopsTestProject copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pk.DevopsTestProjectDev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = DevopsTestProjectDev;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		F99042D421B286D000A795F5 /* Build configuration list for PBXNativeTarget "DevopsTestProjectStaging" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F99042D521B286D000A795F5 /* Debug */,
+				F99042D621B286D000A795F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		F9BE80B5219C63F300C29F23 /* Build configuration list for PBXProject "DevopsTestProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -585,6 +786,15 @@
 			buildConfigurations = (
 				F9BE80EC219C63FB00C29F23 /* Debug */,
 				F9BE80ED219C63FB00C29F23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9BE80F8219C7BF900C29F23 /* Build configuration list for PBXNativeTarget "DevopsTestProject Dev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9BE80F9219C7BF900C29F23 /* Debug */,
+				F9BE80FA219C7BF900C29F23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
